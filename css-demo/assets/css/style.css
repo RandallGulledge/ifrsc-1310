@@ -5,7 +5,7 @@
   <title>IFSC 1310 - Prototype</title>
   <meta charset="UTF-8">
   <meta name="description" content="Keyword rich narrative on site purpose">
-  <meta name="author" content="Randall Gulledge">
+  <meta name="author" content="Thomas Wallace">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -98,34 +98,34 @@
         </tr>
       </thead>
       <tr>
-        <td>Tires</td>
-        <td>4</td>
-        <td>5.99</td>
+        <td>Jolt Extra</td>
+        <td>3</td>
+        <td>.99</td>
       </tr>
       <tr>
-        <td>Body</td>
-        <td>1</td>
-        <td>9.99</td>
+        <td>Jolt</td>
+        <td>3</td>
+        <td>.99</td>
       </tr>
       <tr>
-        <td>Seats</td>
-        <td>4</td>
-        <td>8.99</td>
+        <td>Jolt</td>
+        <td>3</td>
+        <td>.99</td>
       </tr>
       <tr>
-        <td>Seat Covers</td>
-        <td>4</td>
-        <td>4.99</td>
+        <td>Jolt</td>
+        <td>3</td>
+        <td>.99</td>
       </tr>
       <tr>
-        <td>Car Cover</td>
-        <td>1</td>
-        <td>2.99</td>
+        <td>Jolt</td>
+        <td>3</td>
+        <td>.99</td>
       </tr>
       <tr>
-        <td>Keys</td>
-        <td>2</td>
-        <td>1.99</td>
+        <td>Jolt</td>
+        <td>3</td>
+        <td>.99</td>
       </tr>
     </table>
 
@@ -148,31 +148,31 @@
     <!--This is a list of items to purchase at the grocery store.-->
 
     <ul>
-      <li>Chicken</li>
-      <li>Pasta</li>
+      <li>Ramen</li>
+      <li>Cheetos
         <ul>
-          <li>Noodles</li>
-          <li>Sause</li>
-          <li>Chicken</li>
+          <li>Ramen</li>
+          <li>Cheetos</li>
+          <li>Jolt</li>
           <li>Bread</li>
-          <li>Salt</li>
-          <li>Peper</li>
         </ul>
       </li>
+      <li>Jolt</li>
+      <li>Bread</li>
     </ul>
 
     <!--This is an Example of how we should mark up a term and its description(s)-->
     <dl>
-      <dt>Term 1</dt>
+      <dt>Term</dt>
+      <dd>Description 1</dd>
+      <dd>Description 2</dd>
+      <dt>Term</dt>
       <dd>Description 1</dd>
       <dd>Description 2</dd>
       <dd>Description 3</dd>
       <dd>Description 4</dd>
-      <dt>Term 2</dt>
+      <dt>Term</dt>
       <dd>Description 1</dd>
-      <dd>Description 2</dd>
-      <dd>Description 3</dd>
-      <dd>Description 4</dd>
     </dl>
 
     <h4>This is a Subsection of Subsection I</h4>
@@ -194,8 +194,7 @@
           <h2>Sample Sidebar Item </h2>
         </header>
         <p>Quisque justo erat, varius placerat fermentum vel, iaculis vel ligula. Phasellus et elit purus. Curabitur ipsum enim, scelerisque vitae condimentum ac, <a href="#">Read More &raquo;</a>cursus eget quam. Nullam volutpat dui ut risus pulvinar at fringilla sem tristique. Nulla facilisi.
-          Donec posuere euismod purus, eu scelerisque risus pellentesque eu. Vestibulum sed tincidunt metus. <a href="#">Read More &raquo;</a>
-        </p>
+          Donec posuere euismod purus, eu scelerisque risus pellentesque eu. Vestibulum sed tincidunt metus. <a href="#">Read More &raquo;</a></p>
         <footer>Widget Footer</footer>
       </article>
       <article class="widget">
@@ -203,7 +202,7 @@
           <h2>Sample Sidebar Item </h2>
         </header>
         <p>Quisque justo erat, varius placerat fermentum vel, iaculis vel ligula. Phasellus et elit purus. Curabitur ipsum enim, scelerisque vitae condimentum ac, cursus eget quam. Nullam volutpat dui ut risus pulvinar at fringilla sem tristique. Nulla facilisi.
-          Donec posuere euismod purus, eu scelerisque risus pellentesque eu. Vestibulum sed tincidunt metus. <a href="#" target="_blank">Read More &raquo;</a></p>
+          Donec posuere euismod purus, eu scelerisque risus pellentesque eu. Vestibulum sed tincidunt metus. a href="#" target="_blank">Read More &raquo;
         <footer>Widget Footer</footer>
       </article>
     </div>
@@ -211,27 +210,27 @@
   <!--#secondary -->
   <!--#content -->
   <footer id="colophon" role="contentinfo">
-    <h6>&copy; 2023 Randall Joel Gulledge </h6>
+    <h6>&copy; 2023 Your Name </h6>
   </footer>
 </body>
 
 </html>
 
-/* 
+/*
 Primary Color:#BF9B8E
 */
 
 .bg-demo{
   background-image:url("https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png");
-   
+
    /* 
    When using an relative path
    background-image:url("../img/kitten.jpg"); */
 
    background-repeat:no-repeat;
    background-size:contain;
-   padding-left:15em; 
-  }
+   padding-left:15em;
+}
  
  
  
