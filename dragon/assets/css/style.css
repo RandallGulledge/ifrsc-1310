@@ -95,7 +95,7 @@ header.primary h1 {
 header.primary h1 a {
   color: #0000FF;
   background-image:
-  display: block;
+  display block;
   width: 460x;
   height: 70px;
   margin: 0 auto;
@@ -131,7 +131,7 @@ header.primary nav li {
 header.primary nav a:link,
 header.primary nav a:visited {
   color: 0000FF;
-  text-decoration;
+  text-decoration:dashed overline;
   background-color: #0000FF;
   padding: 8px 16px;
   border-radius: 10px;
